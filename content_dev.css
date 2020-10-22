@@ -1,0 +1,111 @@
+.dev-flex{
+	display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+	/*overflow: hidden;*/
+	padding: 3em 5em;
+	color: white;
+}
+
+.advertisement{
+	border: 1px solid;
+	width: 30%;
+	/*object-fit: scale-down;*/
+}
+
+.phase-grid {
+	height: auto;
+	display: grid;
+	overflow: hidden;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	padding: 3em;
+	/*grid-template-rows: repeat(6, 1fr);*/
+}
+
+.phase-grid div{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	padding-top: 2em;
+	font-size: 2rem;
+}
+
+.phase-grid div p{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	font-size: 2rem;
+}
+
+.pre{
+	font-size: 5rem;
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.pre_desc{
+	font-size: 2rem;
+	grid-column: 2 / 7;
+	grid-row: 1;
+}
+
+.ph1{
+	font-size: 5rem;
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.ph1_desc{
+	font-size: 2rem;
+	grid-column: 2 / 7;
+	grid-row: 2;
+}
+
+.ph2{
+	font-size: 5rem;
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.ph2_desc{
+	font-size: 2rem;
+	grid-column: 2 / 7;
+	grid-row: 3;
+}
+
+.ph3{
+	font-size: 5rem;
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.ph3_desc{
+	font-size: 2rem;
+	grid-column: 2 / 7;
+	grid-row: 4;
+}
+
+.ph4{
+	font-size: 5rem;
+	grid-column: 1;
+	grid-row: 5;
+}
+
+.ph4_desc{
+	font-size: 2rem;
+	grid-column: 2 / 7;
+	grid-row: 5;
+}
+
+.Disclamer{
+	padding: 5em;
+}
+
+
+
+
+

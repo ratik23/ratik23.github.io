@@ -1,0 +1,50 @@
+.container-faq{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+    height: auto;
+	/*overflow: hidden;*/
+	padding: 3em 5em;
+	color: white;
+}
+
+.advertisement{
+	border: 1px solid;
+	width: 30%;
+	/*object-fit: scale-down;*/
+}
+
+.faq_flex{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-left: 5em;
+}
+
+.faq{
+    text-align: center;
+    text-align: justify;
+
+}
+
+.question{
+	font-size: 3rem;
+	padding-bottom: 1rem;
+}
+
+.answer{
+	font-size: 2rem;
+	margin-left: 1rem;
+}
+
+.Disclamer{
+	padding: 5em;
+}
+
+
+
+
+
