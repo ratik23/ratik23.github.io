@@ -1,50 +1,294 @@
 
-.flex-desc {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    font-size: 2rem;
-    height: auto;
-	/*overflow: hidden;*/
-	padding: 3em 5em;
-	color: white;
-}
 
-.advertisement{
-	/*border: 1px solid;*/
-	width: 30%;
-	/*object-fit: scale-down;*/
-}
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.flex-desc {
+	    display: flex;
+	    justify-content: space-evenly;
+	    align-items: center;
+	    text-align: center;
+	    /*font-size: 2rem;*/
+	    height: auto;
+		/*overflow: hidden;*/
+		padding: 2em 1em;
+		color: white;
+	}
 
-.description{
-	width: 40%;
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	justify-content: center;
-}
+	.flex-desc div{
+		/*border: 1px solid;*/
+	}
 
-.description_title{
-	margin-bottom: 1em;
-	padding-bottom: .5em;
-	width: 100%;
-	font-size: 5rem;
-	border-bottom: 1px solid white;
-}
+	.advertisement{
+		/*border: 1px solid;*/
+		width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+		/*object-fit: scale-down;*/
+	}
 
-.description_text{
-	font-size: 2rem;
-	margin-bottom: 1em;
-	width: 100%;
-	/*border: 1px solid;*/
-}
+	.advertisement img{
+		height: 12em;		
+	}
 
-.img{
-    width: 30%;
-    /*max-height: 100%;*/
-}
+	.description{
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+	}
 
-.Disclamer{
-	padding: 5em;
-}
+	.description_title{
+		margin-bottom: 1em;
+		padding-bottom: .5em;
+		width: 100%;
+		font-size: 1.5rem;
+		border-bottom: 1px solid white;
+	}
+
+	.description_text{
+		font-size: 1rem;
+		margin-bottom: 1em;
+		width: 100%;
+		/*border: 1px solid;*/
+	}
+
+	.img{
+	    width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+	    /*max-height: 100%;*/
+	}
+
+	.img img{
+		height: 12em;
+	}
+
+	.Disclamer{
+		padding: 1em;
+	}
+	.Disclamer h2{
+		font-size: 1.5rem;
+	}
+	.Disclamer p{
+		font-size: 1rem;
+	}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.flex-desc {
+	    display: flex;
+	    justify-content: space-evenly;
+	    align-items: center;
+	    text-align: center;
+	    /*font-size: 2rem;*/
+	    height: auto;
+		/*overflow: hidden;*/
+		padding: 2em 1em;
+		color: white;
+	}
+
+	.flex-desc div{
+		/*border: 1px solid;*/
+	}
+
+	.advertisement{
+		/*border: 1px solid;*/
+		width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+		/*object-fit: scale-down;*/
+	}
+
+	.advertisement img{
+		height: 12em;		
+	}
+
+	.description{
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+	}
+
+	.description_title{
+		margin-bottom: 1em;
+		padding-bottom: .5em;
+		width: 100%;
+		font-size: 2.5rem;
+		border-bottom: 1px solid white;
+	}
+
+	.description_text{
+		font-size: 1rem;
+		margin-bottom: 1em;
+		width: 100%;
+		/*border: 1px solid;*/
+	}
+
+	.img{
+	    width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+	    /*max-height: 100%;*/
+	}
+
+	.img img{
+		height: 12em;
+	}
+
+	.Disclamer{
+		padding: 1em;
+	}
+	.Disclamer h2{
+		font-size: 2.5rem;
+	}
+	.Disclamer p{
+		font-size: 1rem;
+	}
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.flex-desc {
+	    display: flex;
+	    justify-content: space-evenly;
+	    align-items: center;
+	    text-align: center;
+	    font-size: 2rem;
+	    height: auto;
+		/*overflow: hidden;*/
+		padding: 2em 1em;
+		color: white;
+	}
+
+	.flex-desc div{
+		/*border: 1px solid;*/
+	}
+
+	.advertisement{
+		/*border: 1px solid;*/
+		width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+		/*object-fit: scale-down;*/
+	}
+
+	.advertisement img{
+		height: 15em;		
+	}
+
+	.description{
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+	}
+
+	.description_title{
+		margin-bottom: 1em;
+		padding-bottom: .5em;
+		width: 100%;
+		font-size: 3rem;
+		border-bottom: 1px solid white;
+	}
+
+	.description_text{
+		font-size: 1.5rem;
+		margin-bottom: 1em;
+		width: 100%;
+		/*border: 1px solid;*/
+	}
+
+	.img{
+	    width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+	    /*max-height: 100%;*/
+	}
+
+	.img img{
+		height: 15em;
+	}
+
+	.Disclamer{
+		padding: 2em;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.flex-desc {
+	    display: flex;
+	    justify-content: space-evenly;
+	    align-items: center;
+	    text-align: center;
+	    font-size: 2rem;
+	    height: auto;
+		/*overflow: hidden;*/
+		padding: 3em 2em;
+		color: white;
+	}
+
+	.flex-desc div{
+		/*border: 1px solid;*/
+	}
+
+	.advertisement{
+		/*border: 1px solid;*/
+		width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+		/*object-fit: scale-down;*/
+	}
+
+	.advertisement img{
+		height: auto;		
+	}
+
+	.description{
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+	}
+
+	.description_title{
+		margin-bottom: 1em;
+		padding-bottom: .5em;
+		width: 100%;
+		font-size: 4rem;
+		border-bottom: 1px solid white;
+	}
+
+	.description_text{
+		font-size: 2rem;
+		margin-bottom: 1em;
+		width: 100%;
+		/*border: 1px solid;*/
+	}
+
+	.img{
+	    width: auto;
+		margin-right: 1em;
+		margin-left: 1em;
+	    /*max-height: 100%;*/
+	}
+
+	.img img{
+		height: auto;
+	}
+
+	.Disclamer{
+		padding: 3em;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {*/
+/*} */
