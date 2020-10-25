@@ -1,50 +1,259 @@
-.container-faq{
-	display: flex;
-	flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    text-align: center;
-    height: auto;
-	/*overflow: hidden;*/
-	padding: 3em 5em;
-	color: white;
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.title{
+		padding: 2rem;
+	}
+	.title h1{
+		font-size: 4rem;
+	}
+
+	.container-faq{
+		display: flex;
+		flex-direction: row;
+	    justify-content: space-evenly;
+	    text-align: left;
+	    height: auto;
+		/*overflow: hidden;*/
+		color: white;
+	}
+
+	/*.advertisement{
+		border: 1px solid;
+		width: 30%;
+	}*/
+
+	.faq_flex{
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 10rem;
+	}
+
+	.faq{
+	    text-align: center;
+	    text-align: left;
+
+	}
+
+	.question b{
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.answer p{
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.Disclamer{
+		padding: 5em;
+	}
 }
 
-.advertisement{
-	border: 1px solid;
-	width: 30%;
-	/*object-fit: scale-down;*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.title{
+		padding: 2rem;
+	}
+	.title h1{
+		font-size: 4rem;
+	}
+
+	.container-faq{
+		display: flex;
+		flex-direction: row;
+	    justify-content: space-evenly;
+	    text-align: left;
+	    height: auto;
+		/*overflow: hidden;*/
+		color: white;
+	}
+
+	/*.advertisement{
+		border: 1px solid;
+		width: 30%;
+	}*/
+
+	.faq_flex{
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 5rem;
+	}
+
+	.faq{
+	    text-align: center;
+	    text-align: left;
+
+	}
+
+	.question b{
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.answer p{
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.Disclamer{
+		padding: 5em;
+	}
 }
 
-.faq_flex{
-	display: flex;
-	flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-    margin-left: 5em;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+	.title{
+		padding: 2rem;
+	}
+	.title h1{
+		font-size: 4rem;
+	}
+
+	.container-faq{
+		display: flex;
+		flex-direction: row;
+	    justify-content: space-evenly;
+	    text-align: left;
+	    height: auto;
+		/*overflow: hidden;*/
+		color: white;
+	}
+
+	/*.advertisement{
+		border: 1px solid;
+		width: 30%;
+	}*/
+
+	.faq_flex{
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 5rem;
+	}
+
+	.faq{
+	    text-align: center;
+	    text-align: left;
+
+	}
+
+	.question b{
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.answer p{
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.Disclamer{
+		padding: 5em;
+	}
 }
 
-.faq{
-    text-align: center;
-    text-align: justify;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.title{
+		padding: 2rem;
+	}
+	.title h1{
+		font-size: 4rem;
+	}
 
+	.container-faq{
+		display: flex;
+		flex-direction: row;
+	    justify-content: space-evenly;
+	    text-align: left;
+	    height: auto;
+		/*overflow: hidden;*/
+		color: white;
+	}
+
+	/*.advertisement{
+		border: 1px solid;
+		width: 30%;
+	}*/
+
+	.faq_flex{
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 10rem;
+	}
+
+	.faq{
+	    text-align: center;
+	    text-align: left;
+
+	}
+
+	.question b{
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.answer p{
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.Disclamer{
+		padding: 5em;
+	}
 }
 
-.question{
-	font-size: 3rem;
-	padding-bottom: 1rem;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.title{
+		padding: 2rem;
+	}
+	.title h1{
+		font-size: 4rem;
+	}
+
+	.container-faq{
+		display: flex;
+		flex-direction: row;
+	    justify-content: space-evenly;
+	    text-align: left;
+	    height: auto;
+		/*overflow: hidden;*/
+		color: white;
+	}
+
+	/*.advertisement{
+		border: 1px solid;
+		width: 30%;
+	}*/
+
+	.faq_flex{
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 10rem;
+	}
+
+	.faq{
+	    text-align: center;
+	    text-align: left;
+
+	}
+
+	.question b{
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.answer p{
+		font-size: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.Disclamer{
+		padding: 5em;
+	}
 }
-
-.answer{
-	font-size: 2rem;
-	margin-left: 1rem;
-}
-
-.Disclamer{
-	padding: 5em;
-}
-
-
 
 
 
