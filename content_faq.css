@@ -27,7 +27,7 @@
 	.faq_flex{
 		display: flex;
 		flex-direction: column;
-		padding: 2rem 10rem;
+		padding: 2rem 6rem;
 	}
 
 	.faq{

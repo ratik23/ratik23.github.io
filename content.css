@@ -14,17 +14,19 @@
 		color: white;
 	}
 
+	.flex-desc img{
+		display: none;
+	}
+
 	.flex-desc div{
 		/*border: 1px solid;*/
 	}
 
-	.advertisement{
-		/*border: 1px solid;*/
+/*	.advertisement{
 		width: auto;
 		margin-right: 1em;
 		margin-left: 1em;
-		/*object-fit: scale-down;*/
-	}
+	}*/
 
 	.advertisement img{
 		height: 12em;		
@@ -42,30 +44,28 @@
 		margin-bottom: 1em;
 		padding-bottom: .5em;
 		width: 100%;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		border-bottom: 1px solid white;
 	}
 
 	.description_text{
-		font-size: 1rem;
+		font-size: q.5rem;
 		margin-bottom: 1em;
 		width: 100%;
 		/*border: 1px solid;*/
 	}
 
-	.img{
+	/*.img{
 	    width: auto;
 		margin-right: 1em;
-		margin-left: 1em;
-	    /*max-height: 100%;*/
-	}
+		margin-left: 1em;	}
 
 	.img img{
 		height: 12em;
-	}
+	}*/
 
 	.Disclamer{
-		padding: 1em;
+		padding: 5em;
 	}
 	.Disclamer h2{
 		font-size: 1.5rem;
