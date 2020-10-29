@@ -27,13 +27,13 @@
 	.faq_flex{
 		display: flex;
 		flex-direction: column;
-		padding: 2rem 6rem;
+		padding: 2rem 4rem;
 	}
 
 	.faq{
 	    text-align: center;
 	    text-align: left;
-
+	    margin-bottom: 2rem;
 	}
 
 	.question b{
@@ -42,12 +42,19 @@
 	}
 
 	.answer p{
-		font-size: 2rem;
-		padding-bottom: 2rem;
+		font-size: 1.8rem;
+		padding-bottom: 1rem;
+		/*padding-left: 1rem;*/
 	}
 
 	.Disclamer{
-		padding: 5em;
+		padding: 2em;
+	}
+	.Disclamer h2{
+		font-size: 1.5rem;
+	}
+	.Disclamer p{
+		font-size: 1rem;
 	}
 }
 
@@ -84,7 +91,7 @@
 	.faq{
 	    text-align: center;
 	    text-align: left;
-
+	    margin-bottom: 2rem;
 	}
 
 	.question b{
@@ -93,12 +100,19 @@
 	}
 
 	.answer p{
-		font-size: 2rem;
-		padding-bottom: 2rem;
+		font-size: 1.8rem;
+		padding-bottom: 1.5rem;
+		padding-left: 1rem;
 	}
 
 	.Disclamer{
-		padding: 5em;
+		padding: 1em;
+	}
+	.Disclamer h2{
+		font-size: 2.5rem;
+	}
+	.Disclamer p{
+		font-size: 1rem;
 	}
 }
 
@@ -135,7 +149,7 @@
 	.faq{
 	    text-align: center;
 	    text-align: left;
-
+	    margin-bottom: 5rem;
 	}
 
 	.question b{
@@ -144,12 +158,13 @@
 	}
 
 	.answer p{
-		font-size: 2rem;
+		font-size: 1.8rem;
 		padding-bottom: 2rem;
+		padding-left: 3rem;
 	}
 
 	.Disclamer{
-		padding: 5em;
+		padding: 2em;
 	}
 }
 
@@ -186,7 +201,7 @@
 	.faq{
 	    text-align: center;
 	    text-align: left;
-
+	    margin-bottom: 5rem;
 	}
 
 	.question b{
@@ -197,10 +212,11 @@
 	.answer p{
 		font-size: 2rem;
 		padding-bottom: 2rem;
+		padding-left: 3rem;
 	}
 
 	.Disclamer{
-		padding: 5em;
+		padding: 3em;
 	}
 }
 
@@ -237,7 +253,7 @@
 	.faq{
 	    text-align: center;
 	    text-align: left;
-
+	    margin-bottom: 5rem;
 	}
 
 	.question b{
@@ -248,6 +264,7 @@
 	.answer p{
 		font-size: 2rem;
 		padding-bottom: 2rem;
+		padding-left: 3rem;
 	}
 
 	.Disclamer{
