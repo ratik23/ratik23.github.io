@@ -83,6 +83,12 @@ p {
     /*background: linear-gradient(90deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);*/
     background: rgba(0, 172, 193, 1);
 }
+
+.footer{
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
 /* Animation */
 .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
@@ -103,6 +109,7 @@ p {
     animation-delay: -5s;
     animation-duration: 20s;
 }
+
 @keyframes move-forever {
     0% {
         transform: translate3d(-90px, 0, 0);
