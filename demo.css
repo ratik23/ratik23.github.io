@@ -1,0 +1,18 @@
+body{
+	/*background-color: black;*/
+}
+
+.round-box{
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	border: 5px solid black;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-box:hover{
+	border-color: blue;
+}

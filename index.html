@@ -32,6 +32,8 @@
 		<link rel="stylesheet" type="text/css" href="content.css">
 		<link rel="stylesheet" type="text/css" href="navigation.css">
 		<link rel="stylesheet" type="text/css" href="timeline.css">
+		<link rel="stylesheet" type="text/css" href="feed.css">
+
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -79,35 +81,218 @@
 			c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z" />
 			        </g>
 			        <h1>Covid-19 Vaccine Development Tracker</h1>
-			        <h3>[ Last Updated on 4-11-2020 ]</h3>
+			        <h3>[ Last Updated on 3-12-2020 ]</h3>
 		    </div>
 
-			<div class="timeline-container">
-				<div class="timeline-grid">
-					<!-- <div class="line">
-						<img src="assets/Grouptimeline.png">
-					</div> -->
-					<div class="img1 img_"><div class="number">122</div></div>
-					<div class="line-end-left"><div class></div><div class="line1"></div></div>
-					<div class="phase1">PRE CLINICAL</div>
 
-					<div class="img2 img_"><div class="number">51</div></div>
-					<div class="line2"><div class="circle"></div></div>
-					<div class="phase2">PHASE 1</div>
+		    <div class="timeline_animated">
+		    	<button id="world-btn" onclick="toggle_world()">Worldwide</button>
+				<button id="india-btn" onclick="toggle_india()">India</button>
 
-					<div class="img3 img_"><div class="number">30</div></div>
-					<div class="line3"><div class="circle"></div></div>
-					<div class="phase3">PHASE 2</div>
+			    <div class="statistics" id="world-stats">
+					<div class="rings">
+			            <div class="pie pie1">
+			                <div class="title">Pre-Clinical</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
 
-					<div class="img4 img_"><div class="number">15</div></div>
-					<div class="line4"><div class="circle"></div></div>
-					<div class="phase4">PHASE 3</div>
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>112</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+			            
+			            <div class="pie pie2">
+			                <div class="title">Phase 1</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
 
-					<div class="img5 img_"><div class="number">3</div></div>
-					<div class="line5"></div>
-					<div class="phase5">Phase 4</div>
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>56</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie3">
+			                <div class="title">Phase 2</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>32</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie4">
+			                <div class="title">Phase 3</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>13</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie5">
+			                <div class="title">Phase 4</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>3</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie6">
+			                <div class="title">Approved</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>0</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="clear"></div>
+				    </div>
 				</div>
-			</div>	        
+
+				<div class="statistics" id="india-stats">
+					<div class="rings">
+			            <div class="pie pie1_in">
+			                <div class="title">Pre-Clinical</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>1</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+			            
+			            <div class="pie pie2_in">
+			                <div class="title">Phase 1</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>2</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie3_in">
+			                <div class="title">Phase 2</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>2</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie4_in">
+			                <div class="title">Phase 3</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>2</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie5_in">
+			                <div class="title">Phase 4</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>0</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie6_in">
+			                <div class="title">Approved</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>0</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="clear"></div>
+				    </div>
+				</div>
+		    </div>
+
+		    <div class='feed-slot'>
+				<div class='feed-container'>
+					<div class='feed-head'><b>Vaccine Updates</b></div>
+					<div class='feed-body'>
+						<a href='https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/coronavirus-vaccines-in-india-heres-a-list-of-all-covid-19-vaccines-made-in-india/photostory/79463339.cms'><div class='article'>Coronavirus Vaccines In India: Here's A List Of All The COVID-19 Vaccines Being Made In India</div></a>
+						<a href='https://m.dailyhunt.in/news/india/english/the+indian+express-epaper-indexp/uk+approves+pfizerbiontech+covid19+vaccine+rollout+next+week-newsid-n233373264?s=a&uu=0x1637080feab3d352&ss=wsp'><div class='article'>UK approves Pfizer-BioNTech COVID-19 vaccine, rollout 'next week'</div></a>
+						<a href='https://www.ndtv.com/world-news/world-health-organization-suspends-gileads-remdesivir-from-list-of-medicines-after-warning-against-use-on-covid-patients-2328154'><div class='article'>WHO Removes Remdesivir From List Of Medicines Used As Benchmark</div></a>
+						<a href=' https://m.dailyhunt.in/news/india/english/zee+news+english-epaper-zeeeng/moderna+to+charge+rs+1855rs+2755+for+covid19+vaccine+ceo-newsid-n230933844?s=a&uu=0x1637080feab3d352&ss=wsp'><div class='article'>Moderna to charge Rs 1855-Rs 2755 for COVID-19 vaccine: CEO</div></a>
+					</div>
+				</div>
+			</div>     
 
 	    <!--Waves Container-->
 		    <div>
@@ -172,32 +357,103 @@
 		        <h3>[ Last Updated on 4-11-2020 ]</h3>
 		    </div>
 
-		    <div class="timeline-container">
-				<div class="timeline-grid">
-					<!-- <div class="line">
-						<img src="assets/Grouptimeline.png">
-					</div> -->
-					<div class="img1 img_"><div class="number">82</div></div>
-					<div class="line-end-left"><div class></div><div class="line1"></div></div>
-					<div class="phase1">PRE-CLINICAL</div>
+		    <div class="timeline_animated">
+			    <div class="statistics" id="world-stats">
+					<div class="rings">
+			            <div class="pie pie1_thr">
+			                <div class="title">Pre-Clinical</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
 
-					<div class="img2 img_"><div class="number">113</div></div>
-					<div class="line2"><div class="circle"></div></div>
-					<div class="phase2">PHASE 1</div>
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>80</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+			            
+			            <div class="pie pie2_thr">
+			                <div class="title">Phase 1</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
 
-					<div class="img3 img_"><div class="number">249</div></div>
-					<div class="line3"><div class="circle"></div></div>
-					<div class="phase3">PHASE 2</div>
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>121</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
 
-					<div class="img4 img_"><div class="number">128</div></div>
-					<div class="line4"><div class="circle"></div></div>
-					<div class="phase4">PHASE 3</div>
+			            <div class="pie pie3_thr">
+			                <div class="title">Phase 2</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
 
-					<div class="img5 img_"><div class="number">47</div></div>
-					<div class="line5"></div>
-					<div class="phase5">PHASE 4</div>
-				</div>
-			</div>	
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>261</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie4_thr">
+			                <div class="title">Phase 3</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>133</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie5_thr">
+			                <div class="title">Phase 4</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>48</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="pie pie6_thr">
+			                <div class="title">Approved</div>
+			                <div class="outer-right mask">
+			                    <div class="inner-right"></div>
+			                </div>
+
+			                <div class="outer-left mask">
+			                    <div class="inner-left"></div>
+			                </div>
+			                <div class="content_">
+			                    <span>0</span>
+			                </div>
+			                <div class="arrow"></div>
+			            </div>
+
+			            <div class="clear"></div>
+				    </div>
+				</div> 
+		    </div>
 
 		    <!--Waves Container-->
 		    <div>
@@ -254,6 +510,7 @@
 
 	    <!-- <script type="text/javascript" src="navigation.js"></script> -->
 	    <script type="text/javascript" src="navigation.js"></script>
+	    <script type="text/javascript" src="timeline.js"></script>
 
 	<!-- <script type="text/javascript" src="demands.js"></script> -->
 	</body>
